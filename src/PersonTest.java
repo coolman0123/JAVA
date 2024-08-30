@@ -11,5 +11,9 @@ public class PersonTest {
         p3.name = "siwon"; //문자열은 new를 사용하지 않고 인스턴스를 사용할 수 있음.
         System.out.println(p3.name);
         System.out.println(p3.name.length());
+
+        System.out.println("--------------------------");
+        p2.printMethod();
+
     }
 }

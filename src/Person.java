@@ -19,4 +19,11 @@ public class Person {
 
         System.out.println("count :" +count);
     }
+
+    public void printMethod(){
+        int m = 0; //메소드 안에 선언된 변수를 외부에서 접근할 수 는 없는 건가?
+        //메소드 내에 지역 변수이기 때문에 메소드가 끝나면 메모리에서 사라진다.
+        //외부에서 접근해서 값을 유지할 수 없음
+        System.out.println(m);
+    }
 }
