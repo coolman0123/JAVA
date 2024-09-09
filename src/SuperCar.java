@@ -1,6 +1,4 @@
-package com.example;
-
-public class SuperCar {
+public class SuperCar extends Car{
 
 
     public void run(){

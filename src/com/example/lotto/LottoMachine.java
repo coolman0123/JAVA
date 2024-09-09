@@ -9,8 +9,8 @@ package com.example.lotto;
 public interface LottoMachine {
     //어차피 interface메소드 전부 abstract이기 때문에 생략 가능
     //field들은 다 public하기 때문에 또한 생략 가능
-    public int MAX_BALL_COUNT = 45;
-    int RETURN_BALL_COUNT = 6;
+    int MAX_BALL_COUNT = 47;
+    int RETURN_BALL_COUNT = 9;
 
     public abstract void setBalls(Ball[] balls); //ball[] 배열, ball 여러개를 받겠다.
     public void mix(); // ball 섞기

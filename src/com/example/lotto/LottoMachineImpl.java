@@ -14,8 +14,8 @@ public class LottoMachineImpl implements LottoMachine{
     @Override
     public void mix() {
         for(int i = 0; i< 10000; i++){
-            int x1 = (int)(Math.random() * 45);
-            int x2 = (int)(Math.random()* 45);
+            int x1 = (int)(Math.random() * LottoMachine.MAX_BALL_COUNT);
+            int x2 = (int)(Math.random()* LottoMachine.MAX_BALL_COUNT);
 
             if(x1 != x2){
                 Ball tmp = balls[x1];
@@ -31,8 +31,8 @@ public class LottoMachineImpl implements LottoMachine{
     @Override
     public Ball[] getBalls() {
 
-        Ball[] result = new Ball[6];
-        for(int i = 0; i < 6; i++){
+        Ball[] result = new Ball[LottoMachine.RETURN_BALL_COUNT];
+        for(int i = 0; i < LottoMachine.RETURN_BALL_COUNT; i++){
             result[i] = balls[i];
         }
         return result;
