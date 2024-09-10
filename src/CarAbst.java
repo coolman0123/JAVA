@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class CarAbst {
+public abstract class CarAbst {
+
+   public abstract void a();
 }
