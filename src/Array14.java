@@ -24,5 +24,7 @@ public class Array14 {
             System.out.println(c);
         }
 
+        //for each는 배열 내에 모든 값을 꺼내올 때 편리하기 때문이다.
+
     }
 }
