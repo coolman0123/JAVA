@@ -1,4 +1,4 @@
-package com.example.util2;
+package com.example;
 
 import com.example.MyRunnable;
 import com.example.RunnableExecute;
@@ -18,6 +18,6 @@ public class MyRunnableMain2 {
         );
         System.out.println("00000000000000000000");
 
-
+        //람다 인터페
     }
 }
